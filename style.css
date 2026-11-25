@@ -1,0 +1,98 @@
+*{
+            margin: 0px;
+            padding: 0px;
+        }
+        #nav_bar{
+            background-color: darkgray;
+            
+        }
+        #nav_bar a{
+            color: blue;
+            margin-left: 60px;
+            text-decoration: none;
+
+        }
+        #slider{
+            background-color: khaki;
+            height:300px;
+            width:100%;
+            display:flex;
+        }
+        #leeft{
+            height: 100%;
+            width:100%;
+        }
+
+        #left{
+            width:50%;
+            background-color: brown;
+            height:100%;
+            overflow: hidden;
+        }
+        #leeft img{
+            height:100%;
+            width:100%;
+            object-fit: cover;
+            display: block;
+        }
+        #right{
+            width:50%;
+            height:100%;
+            background-color: blueviolet;
+                 
+        }
+        #top{
+            width:30%;
+            height:60%;
+            background-color:gold;
+            overflow:hidden;
+        }
+        #lipstick{
+            height: 100%;
+            width: 100%;
+            object-fit:cover;   
+        }
+        #bottom{
+             width:30%;
+            height:40%;
+            background-color: turquoise;
+
+        }
+        #elf{
+            height: 100%;
+            width:100%;
+        }
+        #elf img{
+              height: 100%;
+            width:100%;
+            object-fit: cover; 
+        }
+        .products{
+            gap:30px;
+            display:flex;
+        }
+        .product img{
+            height: 150px;
+            width: 150px;
+        }
+        
+        .product{
+            border: 1px solid black;
+            width:120px;
+            padding:30px;
+            text-align: center;
+            border-radius: 15px;
+            margin-top:20px;
+        
+        }
+        .product button{
+            background-color: olive;
+            margin:10px;
+        }
+        .product button:hover{
+            color:rgb(253, 242, 242);    
+        }
+        footer{
+            text-align: center;
+            background-color: darksalmon;
+        }
