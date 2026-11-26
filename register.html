@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML DOING</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <div id="nav_bar">
+        <a href="home.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contacts</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </div>
+<div class="container">
+<div id="register_form">
+    <form action="register_process.php" method="POST">
+        <div class="form_item">
+            <label type="firstname">First Name:</label>
+            <input type="text" id="firstname" name="name">
+        </div>
+        <div class="form_item">
+            <label type="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="name">
+        </div>
+        <div class="form_item">
+            <label type="phonenum">Phone Number:</label>
+            <input type="number" id="phonenum" name="name">
+        </div>
+        <div class="form_item">
+            <label type="email">E-Mail:</label>
+            <input type="email" id="email" name="name">
+        </div>
+        <div class="form_item">
+            <label type="hobby">Hobby:</label><br>
+            <input type="radio" id="reading" name="hobby" value="reading">
+            <label type="reading">Reading</label><br>
+            <input type="radio" id="dancing" name="hobby" value="dancing">
+            <label type="dancing">Dancing</label><br>
+            <input type="radio" id="painting" name="hobby" value="painting">
+            <label type="painting">Painting</label><br>
+        </div>
+        <div class="form_item">
+            <input type="submit" id="submit_btn" value="Login">
+        </div>
+    </form>
+</div>
+</div>
